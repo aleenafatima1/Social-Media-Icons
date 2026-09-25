@@ -1,0 +1,21 @@
+:root{
+    --bg:#f4f5f7;
+    --card:#ffffff;
+    --text:#1a1a1a;
+  }
+
+@media (prefers-color-scheme: dark)
+    {
+    :root:not([data-theme="light"]){
+    --bg:#121316;
+    --card:#1c1d21;
+    --text:#f0f0f0;
+    }
+  }
+
+:root[data-theme="dark"]
+    {
+    --bg:#121316;
+    --card:#1c1d21;
+    --text:#f0f0f0;
+  }
